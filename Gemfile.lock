@@ -125,7 +125,7 @@ GEM
     nokogiri (1.15.2-arm64-darwin)
       racc (~> 1.4)
     pg (1.5.3)
-    puma (5.6.6)
+    puma (4.3.12)
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (2.2.7)
@@ -192,6 +192,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-22
 
 DEPENDENCIES
   active_model_serializers
@@ -201,7 +202,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   pg (~> 1.1)
-  puma (~> 5.0)
+  puma (~> 4.3)
   rack-cors
   rails (~> 7.0.4, >= 7.0.4.3)
   sprockets-rails
@@ -211,7 +212,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 3.0.0p0
+   ruby 3.2.0p0
 
 BUNDLED WITH
    2.2.3
